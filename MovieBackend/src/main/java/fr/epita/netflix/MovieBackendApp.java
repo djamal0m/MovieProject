@@ -24,7 +24,7 @@ public class MovieBackendApp {
 
     @Bean
     public DataSource dataSource() {
-        return new DriverManagerDataSource("jdbc:postgresql://localhost:5432/postgres", "postgres", "SaiRam@4418");
+        return new DriverManagerDataSource("jdbc:postgresql://localhost:5432/postgres", "postgres", "user123");
     }
 
     @Bean(name = "entityManagerFactory")
