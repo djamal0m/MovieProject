@@ -1,7 +1,4 @@
 import {createContext, useContext, useEffect, useState} from "react";
-// import {auth, db} from '../Firebase'
-// import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "firebase/auth";
-// import { setDoc, doc }from 'firebase/firestore'
 import axios from "axios";
 
 const AuthContext = createContext()
